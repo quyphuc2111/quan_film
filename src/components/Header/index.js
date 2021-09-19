@@ -118,12 +118,12 @@ const Header = (props) => {
 
             <NavLink to="/phimhoathinh" className="disc l4">
               {" "}
-              <div>Phim Hoạt Hình</div>
+              <div>Phim H Hình</div>
             </NavLink>
 
             <NavLink to="/phimchieurap" className="disc l5 ">
               {" "}
-              <div> Phim Chiếu Rạp</div>
+              <div> Phim Rạp</div>
             </NavLink>
             <NavLink to="/" exact className="disc l6 toggle">
               {" "}
