@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Grid } from "@material-ui/core";
 import { useSelector } from "react-redux";
 import MovieItem from "components/MovieItem";
-import anhtemp from './anhtemp.jpg'; 
+import quan from './quan.png'; 
 import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -52,7 +52,7 @@ const ListMovie = (props) => {
               <SwiperSlide>
                   <MovieItem
                 key={item.title}
-                img={anhtemp}
+                img={quan}
                 titleMovie={item.title}
                 category={title === "Phim bộ" ? "phimbo" : title === "Phim lẻ" ? "phimle": title === "Phim chiếu rạp" ? "phimchieurap" : title === "Phim hoạt hình" ? "phimhoathinh" : title}
               />
