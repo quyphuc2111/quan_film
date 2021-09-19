@@ -1,0 +1,7 @@
+export const SHOW_LOADING = "SHOW_LOADING";
+export const HIDDEN_LOADING = "HIDDEN_LOADING";
+export const DARK_MODE = "DARK_MODE";
+export const SEARCH = "SEARCH";
+export const SHOW_LOADING_SEARCH = "SHOW_LOADING_SEARCH";
+export const HIDDEN_LOADING_SEARCH = "HIDDEN_LOADING_SEARCH";
+

@@ -1,0 +1,22 @@
+.swiper-button-prev {
+    left: 0;
+    color: #6557de;
+    transition: 0.3s;
+}
+.swiper-button-prev::after {
+    font-size: 1.5rem;
+    color: inherit;
+    font-weight: bolder;
+}
+
+.swiper-button-next {
+    right: 0;
+    color: #6557de;
+    transition: 0.3s;
+}
+.swiper-button-next::after {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: inherit;
+}
+

@@ -1,0 +1,3 @@
+export const GET_NEW_PAGE = "GET_NEW_PAGE";
+export const GET_NEW_PAGE_SUCCESS = "GET_NEW_PAGE_SUCCESS";
+export const GET_NEW_PAGE_FAILED = "GET_NEW_PAGE_FAILED";
